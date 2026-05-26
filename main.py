@@ -1,10 +1,10 @@
 import discord
 from discord.ext import commands
 import random
-from npcs import players, starters
 
-from data import routes
-from pokemon import natures
+from npcs.npcs import players, starters
+from data.routes import routes
+from pokemon.pokemon_data import natures
 
 import os
 
